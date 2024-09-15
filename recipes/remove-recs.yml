@@ -1,7 +1,5 @@
 type: rpm-ostree
 remove: # removes recommended packages we don't want
-  - grim
-  - slurp
   - hyprpicker
   - kitty
   - nwg-panel
