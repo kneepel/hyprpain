@@ -23,7 +23,7 @@ install:
 
 #sound
   - pamixer
-  - alsamixer
+  - alsa-utils
   - pulseaudio-utils
   - pavucontrol
 
