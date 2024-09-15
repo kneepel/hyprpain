@@ -63,8 +63,7 @@ install:
   - breeze-icon-theme 
   - papirus-icon-theme
 
-  #hyprland
-  - hyprland
+  #hyprland utils
   - xdg-desktop-portal-hyprland
   - waybar
   - rofi-wayland
