@@ -8,7 +8,7 @@ image-version: 40
 modules:
   - from-file: core-scripts.yml
   - from-file: core-packages.yml
-  - from-file: post-scripts.yml
+  - from-file: hyprland-install.yml
   - type: signing 
 
 

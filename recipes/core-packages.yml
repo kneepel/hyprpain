@@ -5,8 +5,6 @@ install:
 #login/locking
   - greetd
   - tuigreet
-  - hypridle
-  - hyprlock
   - gnome-keyring
 
 #system utils
@@ -51,8 +49,6 @@ install:
   - brightnessctl
   - kanshi
   - flameshot
-  - swww
-  - waypaper
 
 #theming
   - adwaita-qt5
@@ -63,8 +59,7 @@ install:
   - breeze-icon-theme 
   - papirus-icon-theme
 
-  #hyprland utils
-  - xdg-desktop-portal-hyprland
+  #desktop utils
   - waybar
   - rofi-wayland
 
