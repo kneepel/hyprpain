@@ -1,10 +1,14 @@
 type: rpm-ostree
 remove: # removes recommended packages we don't want
   - hyprpicker
+  - hyprland
   - kitty
   - nwg-panel
   - wl-clipboard
   - wofi
+  - kitty-kitten
+  - kitty-shell-integration
+  - kitty-terminfo
 
 
   
