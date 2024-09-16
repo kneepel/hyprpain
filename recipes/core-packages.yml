@@ -16,10 +16,10 @@ install:
   - tuned
   - xdg-user-dirs
   - ddcutil
-  - foot
   - copyq
   - dunst
   - udiskie
+  - kitty
 
 #sound
   - pamixer
