@@ -1,7 +1,6 @@
 type: rpm-ostree
 remove: # removes recommended packages we don't want
   - hyprpicker
-  - hyprlang
   - nwg-panel
   - wl-clipboard
   - wofi
