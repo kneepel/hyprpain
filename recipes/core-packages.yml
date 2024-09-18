@@ -20,6 +20,7 @@ install:
   - dunst
   - udiskie
   - kitty
+  - neovim
 
 #sound
   - pamixer
