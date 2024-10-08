@@ -16,6 +16,7 @@ install:
 #system utils
   - qt5-qtwayland
   - qt6-qtwayland
+  - qt6-qtsvg
   - polkit-gnome
   - tuned
   - xdg-user-dirs
@@ -55,6 +56,8 @@ install:
   - thunar-archive-plugin
   - thunar-volman
   - p7zip
+  - ffmpegthumbnailer
+  - tumbler
   - file-roller
   - unrar
   - gvfs-mtp
@@ -82,6 +85,9 @@ install:
   - papirus-icon-theme
   - wallust
   - nwg-look
+  - gtk-murrine-engine
+  - fira-code-fonts
+  - jetbrains-mono-fonts
 
   #hyprland
   - hyprland
