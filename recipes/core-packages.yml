@@ -20,6 +20,7 @@ install:
   - tuned
   - xdg-user-dirs
   - ddcutil
+  - wl-clipboard
   - cliphist
   - dunst
   - udiskie
