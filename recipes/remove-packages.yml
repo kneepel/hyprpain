@@ -3,6 +3,9 @@ remove: # removes recommended packages we don't want
   - dunst
   - nwg-panel
   - wofi
+  - firefox
+  - firefox-langpacks
+  - toolbox
 
 
 

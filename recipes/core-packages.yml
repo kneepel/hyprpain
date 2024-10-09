@@ -40,6 +40,8 @@ install:
   - btop
   - eog
   - qalculate-gtk
+  - virt-manager
+  - virt-viewer
 
 #sound
   - pamixer
@@ -99,6 +101,9 @@ install:
   - xdg-desktop-portal-hyprland
   - waybar
   - rofi-wayland
+
+  #silverblue replacement packages
+  - distrobox
 
 
 
