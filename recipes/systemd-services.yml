@@ -1,0 +1,10 @@
+type: systemd
+system:
+  enabled:
+    - greetd-user.service
+    - greetd-workaround.service
+    - libvirt-workaround.service
+    - swtpm-workaround.service
+    - greetd.service
+
+
