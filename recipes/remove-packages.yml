@@ -1,6 +1,5 @@
 type: rpm-ostree
 remove: # removes recommended packages we don't want
-  - dunst
   - nwg-panel
   - nwg-bar
   - wofi
