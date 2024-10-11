@@ -8,6 +8,7 @@ image-version: 40
 modules:
   - from-file: hypr-scripts.yml
   - from-file: hypr-packages.yml
+  - from-file: hypr-flatpaks.yml
   - from-file: hypr-files.yml
   - from-file: remove-packages.yml
   - from-file: hypr-services.yml
