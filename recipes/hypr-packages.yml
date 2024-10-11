@@ -24,7 +24,7 @@ install:
   - wl-clipboard
   - cliphist
   - udiskie
-  - wezterm
+  - kitty
   - neovim
   - slurp
   - grim
