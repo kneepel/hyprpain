@@ -104,23 +104,4 @@ install:
   #lact (only ships via github binary, may make a script to do this automatically but cba now so remember to update url occasionally!)
   - https://github.com/ilya-zlobintsev/LACT/releases/download/v0.5.6/lact-0.5.6-0.x86_64.fedora-40.rpm
 
-type: default-flatpaks #preferred for desktop apps when possible
-system:
-  install:
-    - org.mozilla.firefox #firefox - browsers
-    - com.github.wwmm.easyeffects #easyeffects - sound profiling
-    - com.github.tchx84.Flatseal #flatseal - flatpak permissions
-    - org.gnome.FileRoller #fileroller - archive manager
-    - org.xfce.mousepad #mousepad - basic text editor that integrates with thunar
-    - com.visualstudio.code #vscode - IDE
-    - org.pulseaudio.pavucontrol #pavucontrol - volume control for pulseaudio
-    - org.gnome.eog #eye of gnome - basic image viewer
 
-
-
-
-
-
-
-
- 
