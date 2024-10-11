@@ -2,5 +2,3 @@ type: files
 files:
   - source: system/etc
     destination: /etc
-  - source: system/usr/share/fonts
-    destination: /usr/share/fonts

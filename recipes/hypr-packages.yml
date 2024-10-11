@@ -17,14 +17,12 @@ install:
 #system utils
   - qt5-qtwayland
   - qt6-qtwayland
-  - qt6-qtsvg
   - polkit-gnome
   - tuned
   - xdg-user-dirs
   - ddcutil
   - wl-clipboard
   - cliphist
-  - dunst
   - udiskie
   - kitty
   - neovim
@@ -40,7 +38,6 @@ install:
   - mousepad
   - btop
   - eog
-  - qalculate-gtk
   - virt-manager
   - virt-viewer
 
@@ -74,10 +71,13 @@ install:
   - wlr-randr
   - wlsunset
   - brightnessctl
-  - kanshi
   - swww
+  - waypaper
 
 #theming
+  - qt6-qtsvg
+  - qt5ct
+  - qt6ct
   - adwaita-qt5
   - kvantum
   - fontawesome-fonts-all
@@ -88,7 +88,6 @@ install:
   - papirus-icon-theme
   - wallust
   - nwg-look
-  - gtk-murrine-engine
   - fira-code-fonts
   - jetbrains-mono-fonts
   - nerd-fonts
@@ -97,7 +96,6 @@ install:
   - hyprland
   - hyprcursor
   - hyprutils
-  - aylurs-gtk-shell
   - pyprland
   - SwayNotificationCenter
   - xdg-desktop-portal-hyprland
@@ -106,6 +104,9 @@ install:
 
   #silverblue replacement packages
   - distrobox
+
+  #lact (only ships via github binary, may make a script to do this automatically but cba now so remember to update url occasionally!)
+  - https://github.com/ilya-zlobintsev/LACT/releases/download/v0.5.6/lact-0.5.6-0.x86_64.fedora-40.rpm
 
 
 

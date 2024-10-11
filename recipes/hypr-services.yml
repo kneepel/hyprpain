@@ -6,5 +6,6 @@ system:
     - libvirt-workaround.service
     - swtpm-workaround.service
     - greetd.service
+    - lactd.service
 
 
