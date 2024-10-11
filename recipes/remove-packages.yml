@@ -6,7 +6,6 @@ remove: # removes recommended packages we don't want
   - firefox
   - firefox-langpacks
   - toolbox
-  - kitty
 
 
 
