@@ -9,3 +9,4 @@ system:
     - com.visualstudio.code #vscode - IDE
     - org.pulseaudio.pavucontrol #pavucontrol - volume control for pulseaudio
     - org.gnome.eog #eye of gnome - basic image viewer
+    - io.github.flattool.Warehouse #warehouse - for downloading and managing flatpaks
