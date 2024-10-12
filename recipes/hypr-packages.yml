@@ -4,7 +4,6 @@ repos:
   - https://copr.fedorainfracloud.org/coprs/errornointernet/packages/repo/fedora-%OS_VERSION%/errornointernet-packages-fedora-%OS_VERSION%.repo
   - https://copr.fedorainfracloud.org/coprs/erikreider/SwayNotificationCenter/repo/fedora-%OS_VERSION%/erikreider-SwayNotificationCenter-fedora-%OS_VERSION%.repo
   - https://copr.fedorainfracloud.org/coprs/tofik/nwg-shell/repo/fedora-%OS_VERSION%/tofik-nwg-shell-fedora-%OS_VERSION%.repo
-  - https://copr.fedorainfracloud.org/coprs/che/nerd-fonts/repo/fedora-%OS_VERSION%/che-nerd-fonts-fedora-%OS_VERSION%.repo
 install:
 #login/locking
   - greetd
@@ -84,9 +83,6 @@ install:
   - papirus-icon-theme
   - wallust
   - nwg-look
-  - fira-code-fonts
-  - jetbrains-mono-fonts
-  - nerd-fonts
 
   #hyprland
   - hyprland
