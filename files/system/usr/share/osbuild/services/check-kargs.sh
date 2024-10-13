@@ -1,0 +1,32 @@
+#!/usr/bin/bash
+
+KARGS=$(rpm-ostree kargs)
+NEEDED_KARGS=()
+
+# will check and set amdgpu overclock & iommu kargs on boot if they do not exist
+
+echo "Current kargs: $KARGS"
+
+if [[ ! $KARGS =~ "ppfeaturemask" ]]; then
+    NEEDED_KARGS+=("--append-if-missing="$(printf 'amdgpu.ppfeaturemask=0x%x\n' "$(($(cat /sys/module/amdgpu/parameters/ppfeaturemask) | 0x4000))"))
+  fi
+
+if [[ ! $KARGS =~ "intel_iommu" ]]; then
+    NEEDED_KARGS+=("--append-if-missing=intel_iommu=on")
+  fi
+
+if [[ ! $KARGS =~ "iommu=pt" ]]; then
+    NEEDED_KARGS+=("--append-if-missing=iommu=pt")
+  fi
+
+if [[ -n "$NEEDED_KARGS" ]]; then
+  echo "Found needed karg changes, applying the following: ${NEEDED_KARGS[*]}"
+  plymouth display-message --text="Updating kargs - Please wait, this may take a while" || true
+  rpm-ostree kargs ${NEEDED_KARGS[*]} --reboot || exit 1
+else
+  echo "No karg changes needed"
+fi
+
+if [ "$(hostname)" != "hyprpain" ]; then
+  hostnamectl set-hostname hyprpain
+fi

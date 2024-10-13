@@ -1,0 +1,13 @@
+[Unit]
+Description=Check and set kargs & hostname on boot
+After=rpm-ostreed.service tuned.service
+Before=systemd-user-sessions.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/bin/chmod u+x /usr/share/osbuild/services/check-kargs.sh
+ExecStart=/usr/share/osbuild/services/check-kargs.sh
+
+[Install]
+WantedBy=multi-user.target
