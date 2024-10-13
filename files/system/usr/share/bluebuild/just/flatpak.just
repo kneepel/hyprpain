@@ -18,7 +18,3 @@ utility:
 chat:
     flatpak install org.telegram.desktop
     flatpak install dev.vencord.Vesktop
-
-    
-
-	

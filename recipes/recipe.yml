@@ -11,7 +11,6 @@ modules:
   - from-file: fonts.yml
   - from-file: default-flatpaks.yml
   - from-file: files.yml
-  - type: justfiles
   - from-file: remove-packages.yml
   - from-file: services.yml
   - type: signing  

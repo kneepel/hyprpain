@@ -18,6 +18,7 @@ install:
   - qt6-qtwayland
   - polkit-gnome
   - tuned
+  - just
   - xdg-user-dirs
   - ddcutil
   - wl-clipboard
