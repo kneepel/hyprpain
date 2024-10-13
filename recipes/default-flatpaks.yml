@@ -1,4 +1,4 @@
-type: default-flatpaks #preferred for desktop apps when possible
+type: default-flatpaks #preferred for desktop apps when possible, embrace immutable or something
 system:
   install:
     - org.mozilla.firefox #firefox - browsers

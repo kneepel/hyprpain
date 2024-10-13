@@ -1,0 +1,7 @@
+type: fonts #prioritize over rpm-ostree install if available
+fonts:
+  nerd-fonts:
+    - NerdFontsSymbolsOnly
+  google-fonts:
+    - Fira Code
+    - JetBrains Mono
