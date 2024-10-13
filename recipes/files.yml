@@ -2,5 +2,5 @@ type: files
 files:
   - source: system/etc
     destination: /etc
-  - source: usr/share
+  - source: system/usr/share
     destination: /usr/share
