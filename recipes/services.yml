@@ -1,12 +1,12 @@
 type: systemd
 system:
   enabled:
+    - hyprpain-setup.service
     - greetd-user.service
     - greetd-workaround.service
     - libvirt-workaround.service
     - swtpm-workaround.service
     - greetd.service
-    - check-kargs.service
     - lactd.service
  
 

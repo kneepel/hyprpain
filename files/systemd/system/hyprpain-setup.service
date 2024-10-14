@@ -6,8 +6,7 @@ Before=systemd-user-sessions.service
 [Service]
 Type=oneshot
 RemainAfterExit=yes
-ExecStart=/usr/bin/chmod u+x /usr/share/osbuild/services/check-kargs.sh
-ExecStart=/usr/share/osbuild/services/check-kargs.sh
+ExecStart=/usr/libexec/hyprpain-setup
 
 [Install]
 WantedBy=multi-user.target
