@@ -32,6 +32,7 @@ install:
   - yad
   - inxi
   - nvtop
+  - nmtui
   - cava
   - fastfetch
   - btop
