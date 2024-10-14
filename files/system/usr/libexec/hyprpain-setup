@@ -29,4 +29,6 @@ fi
 
 if [ "$(hostname)" != "hyprpain" ]; then
   hostnamectl set-hostname hyprpain
+else
+  echo "Hostname has not changed"
 fi
