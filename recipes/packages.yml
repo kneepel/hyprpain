@@ -32,7 +32,6 @@ install:
   - yad
   - inxi
   - nvtop
-  - nmtui
   - cava
   - fastfetch
   - btop
@@ -46,6 +45,7 @@ install:
 
 #networking
   - network-manager-applet
+  - NetworkManager-tui
   - bluez-tools
   - blueman
 
