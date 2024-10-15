@@ -39,6 +39,7 @@ install:
   - virt-manager
   - virt-viewer
   - qemu-kvm
+  - edk2-ovmf
   - gnome-disk-utility
 
 #sound
