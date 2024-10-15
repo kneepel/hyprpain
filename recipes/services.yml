@@ -8,6 +8,7 @@ system:
     - swtpm-workaround.service
     - greetd.service
     - lactd.service
+    - libvirtd.service
  
 
 

@@ -35,8 +35,10 @@ install:
   - cava
   - fastfetch
   - btop
+  - virt-install
   - virt-manager
   - virt-viewer
+  - qemu-kvm
   - gnome-disk-utility
 
 #sound
