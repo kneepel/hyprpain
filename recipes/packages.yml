@@ -81,6 +81,7 @@ install:
   - adwaita-qt5
   - kvantum
   - fontawesome-fonts-all
+  - material-icons-fonts 
   - gnome-themes-extra
   - gnome-icon-theme
   - paper-icon-theme
