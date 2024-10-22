@@ -41,6 +41,7 @@ install:
   - qemu-kvm
   - edk2-ovmf
   - gnome-disk-utility
+  - file-roller
 
 #sound
   - pamixer
