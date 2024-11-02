@@ -42,10 +42,12 @@ install:
   - edk2-ovmf
   - gnome-disk-utility
   - file-roller
+  - easyeffects
 
 #sound
   - pamixer
   - alsa-utils
+  - pavucontrol
 
 #networking
   - network-manager-applet

@@ -4,8 +4,6 @@ system:
     - org.mozilla.firefox #firefox - browsers
     - com.github.tchx84.Flatseal #flatseal - flatpak permissions
     - org.xfce.mousepad #mousepad - basic text editor that integrates with thunar
-    - com.visualstudio.code #vscode - IDE
-    - org.pulseaudio.pavucontrol #pavucontrol - volume control for pulseaudio
     - org.gnome.eog #eye of gnome - basic image viewer
     - io.mpv.Mpv #MPV - video player
 
