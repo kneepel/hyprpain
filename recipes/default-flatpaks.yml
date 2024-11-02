@@ -3,7 +3,6 @@ system:
   install:
     - org.mozilla.firefox #firefox - browsers
     - com.github.tchx84.Flatseal #flatseal - flatpak permissions
-    - org.xfce.mousepad #mousepad - basic text editor that integrates with thunar
     - org.gnome.eog #eye of gnome - basic image viewer
     - io.mpv.Mpv #MPV - video player
 

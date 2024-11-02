@@ -43,6 +43,7 @@ install:
   - gnome-disk-utility
   - file-roller
   - easyeffects
+  - mousepad
 
 #sound
   - pamixer
