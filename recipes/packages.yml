@@ -23,12 +23,12 @@ install:
   - ddcutil
   - wl-clipboard
   - cliphist
-  - udiskie
   - kitty
   - neovim
   - slurp
   - grim
   - swappy
+  - ImageMagick
   - yad
   - inxi
   - nvtop
@@ -40,15 +40,19 @@ install:
   - virt-viewer
   - qemu-kvm
   - edk2-ovmf
-  - gnome-disk-utility
-  - file-roller
-  - easyeffects
   - mousepad
+  - python3-requests
+  - python3-pip
+  - python3-pyquery
+  - python3-cairo
 
 #sound
   - pamixer
   - alsa-utils
   - pavucontrol
+  - playerctl
+  - easyeffects
+  
 
 #networking
   - network-manager-applet
@@ -63,7 +67,11 @@ install:
   - p7zip
   - ffmpegthumbnailer
   - tumbler
+  - xarchiver
+  - gnome-disk-utility
+  - udiskie
   - unrar
+  - gvfs
   - gvfs-mtp
   - gvfs-gphoto2
   - gvfs-smb
@@ -84,8 +92,8 @@ install:
   - qt6ct
   - adwaita-qt5
   - kvantum
+  - gtk-murrine-engine
   - fontawesome-fonts-all
-  - material-icons-fonts 
   - gnome-themes-extra
   - gnome-icon-theme
   - paper-icon-theme

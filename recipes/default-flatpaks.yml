@@ -2,9 +2,8 @@ type: default-flatpaks #preferred for desktop apps when possible, embrace immuta
 system:
   install:
     - org.mozilla.firefox #firefox - browsers
-    - com.github.tchx84.Flatseal #flatseal - flatpak permissions
-    - org.gnome.eog #eye of gnome - basic image viewer
     - io.mpv.Mpv #MPV - video player
+    - com.github.tchx84.Flatseal #flatseal - flatpak permissions
 
     
 
