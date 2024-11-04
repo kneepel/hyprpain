@@ -3,7 +3,7 @@ name: hyprpain
 description: wip
 
 base-image: quay.io/fedora-ostree-desktops/base
-image-version: 40 
+image-version: 41
 
 modules:
   - from-file: scripts.yml
