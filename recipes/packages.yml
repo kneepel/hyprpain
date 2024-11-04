@@ -16,7 +16,7 @@ install:
 #system utils
   - qt5-qtwayland
   - qt6-qtwayland
-  - polkit-gnome
+  - mate-polkit 
   - tuned
   - just
   - xdg-user-dirs
@@ -29,6 +29,7 @@ install:
   - grim
   - swappy
   - ImageMagick
+  - eog
   - yad
   - inxi
   - nvtop
