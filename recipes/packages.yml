@@ -112,6 +112,7 @@ install:
   - xdg-desktop-portal-hyprland
   - waybar
   - rofi-wayland
+  - aylurs-gtk-shell
 
   #silverblue replacement packages
   - distrobox
