@@ -46,6 +46,7 @@ install:
   - python3-pip
   - python3-pyquery
   - python3-cairo
+  - waydroid
 
 #sound
   - pamixer
@@ -118,6 +119,6 @@ install:
   - distrobox
 
   #lact (only ships via github binary, may make a script to do this automatically but cba now so remember to update url occasionally!)
-  - https://github.com/ilya-zlobintsev/LACT/releases/download/v0.5.6/lact-0.5.6-0.x86_64.fedora-40.rpm
+  - https://github.com/ilya-zlobintsev/LACT/releases/download/v0.6.0/lact-0.6.0-0.x86_64.fedora-41.rpm
 
 
