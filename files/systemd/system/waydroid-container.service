@@ -1,9 +1,0 @@
-[Unit]
-Wants=dev-binderfs.mount
-Description=Waydroid Container
-
-[Service]
-ExecStart=/usr/bin/waydroid -w container start
-
-[Install]
-WantedBy=multi-user.target
