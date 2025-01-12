@@ -1,9 +1,9 @@
 name: hyprpain
 
-description: wip
+description: nothing but pain
 
 base-image: quay.io/fedora-ostree-desktops/base
-image-version: 41
+image-version: 40
 
 modules:
   - from-file: scripts.yml
