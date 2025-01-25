@@ -46,7 +46,8 @@ install:
   - python3-pip
   - python3-pyquery
   - python3-cairo
-  - rocclr
+  - rocm-opencl 
+  - rocm-hip
 
 #sound
   - pamixer
