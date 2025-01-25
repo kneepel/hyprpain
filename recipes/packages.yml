@@ -48,6 +48,7 @@ install:
   - python3-cairo
   - rocm-opencl 
   - rocm-hip
+  - cmake
 
 #sound
   - pamixer
