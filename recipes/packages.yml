@@ -47,6 +47,8 @@ install:
   - python3-pip
   - python3-pyquery
   - python3-cairo
+  - python3.10
+  - python3.10-devel
   - python3.11
   - python3.11-devel
   - rocm-opencl 
