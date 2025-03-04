@@ -39,6 +39,7 @@ install:
   - virt-install
   - virt-manager
   - virt-viewer
+  - libvirt
   - qemu-kvm
   - edk2-ovmf
   - mousepad
