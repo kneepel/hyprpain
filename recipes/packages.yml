@@ -127,5 +127,6 @@ install:
 
   #lact (cba to figure out how to do this automatically, remember to update)
   - https://github.com/ilya-zlobintsev/LACT/releases/download/v0.7.0/lact-0.7.0-0.x86_64.fedora-41.rpm
+  - https://github.com/OpenTabletDriver/OpenTabletDriver/releases/latest/download/opentabletdriver-0.6.5.1-1.x86_64.rpm
 
 
