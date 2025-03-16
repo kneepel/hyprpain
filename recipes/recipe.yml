@@ -9,7 +9,6 @@ modules:
   - from-file: scripts.yml
   - from-file: packages.yml
   - from-file: fonts.yml
-  - from-file: default-flatpaks.yml
   - from-file: files.yml
   - from-file: remove-packages.yml
   - from-file: services.yml

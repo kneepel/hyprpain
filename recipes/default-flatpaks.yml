@@ -1,9 +1,0 @@
-type: default-flatpaks #preferred for desktop apps when possible, embrace immutable or something
-system:
-  install:
-    - org.mozilla.firefox #firefox - browsers
-    - io.mpv.Mpv #MPV - video player
-    - com.github.tchx84.Flatseal #flatseal - flatpak permissions
-
-    
-
