@@ -7,7 +7,6 @@ repos:
 install:
 #login/locking
   - greetd
-  - tuigreet
   - hyprlock
   - hypridle
   - wlogout
@@ -16,7 +15,7 @@ install:
 #system utils
   - qt5-qtwayland
   - qt6-qtwayland
-  - mate-polkit 
+  - hyprpolkitagent
   - tuned
   - just
   - xdg-user-dirs
@@ -120,13 +119,12 @@ install:
   - xdg-desktop-portal-hyprland
   - waybar
   - rofi-wayland
-  - aylurs-gtk-shell
 
   #silverblue replacement packages
   - distrobox
 
   #lact (cba to figure out how to do this automatically, remember to update)
-  - https://github.com/ilya-zlobintsev/LACT/releases/download/v0.7.0/lact-0.7.0-0.x86_64.fedora-41.rpm
+  - https://github.com/ilya-zlobintsev/LACT/releases/download/v0.7.2/lact-0.7.2-0.x86_64.fedora-41.rpm
   - https://github.com/OpenTabletDriver/OpenTabletDriver/releases/latest/download/opentabletdriver-0.6.5.1-1.x86_64.rpm
 
 

@@ -18,6 +18,10 @@ if [[ ! $KARGS =~ "intel_iommu" ]]; then
 if [[ ! $KARGS =~ "iommu=pt" ]]; then
     NEEDED_KARGS+=("--append-if-missing=iommu=pt")
   fi
+  
+if [[ ! $KARGS =~ "module_blacklist=hid_uclogic,wacom" ]]; then
+    NEEDED_KARGS+=("--append-if-missing=module_blacklist=hid_uclogic,wacom")
+  fi
 
 if [[ -n "$NEEDED_KARGS" ]]; then
   echo "Found needed karg changes, applying the following: ${NEEDED_KARGS[*]}"
