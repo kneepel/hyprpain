@@ -11,7 +11,8 @@ install:
   - hyprlock
   - hypridle
   - wlogout
-  - gnome-keyring
+  - kwallet
+  - pam-kwallet
 
 #system utils
   - qt5-qtwayland
