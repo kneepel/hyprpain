@@ -6,7 +6,8 @@ repos:
   - https://copr.fedorainfracloud.org/coprs/tofik/nwg-shell/repo/fedora-%OS_VERSION%/tofik-nwg-shell-fedora-%OS_VERSION%.repo
 install:
 #login/locking
-  - greetd
+  - sddm
+  - sddm-themes
   - hyprlock
   - hypridle
   - wlogout
@@ -62,7 +63,6 @@ install:
   - playerctl
   - easyeffects
   
-
 #networking
   - network-manager-applet
   - NetworkManager-tui
@@ -97,8 +97,11 @@ install:
 
 #theming
   - qt6-qtsvg
+  - qt5-qtsvg # SDDM
   - qt5ct
-  - qt6ct               
+  - qt6ct       
+  - qt5-qtgraphicaleffects # SDDM
+  - qt5-qtquickcontrols2 # SDDM  
   - kvantum
   - gtk-murrine-engine
   - fontawesome-fonts-all
@@ -110,7 +113,7 @@ install:
   - wallust
   - nwg-look
 
-  #hyprland
+  #desktop
   - hyprland
   - hyprcursor
   - hyprutils
