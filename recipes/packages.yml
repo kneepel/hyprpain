@@ -11,7 +11,9 @@ install:
   - hyprlock
   - hypridle
   - wlogout
-  - keepassxc #dbus service @ ~/.local/share/dbus-1/services
+  - gnome-keyring
+  - libsecret
+  - seahorse
 
 #system utils
   - qt5-qtwayland
