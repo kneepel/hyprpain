@@ -99,9 +99,8 @@ install:
   - qt6-qtsvg
   - qt5-qtsvg # SDDM
   - qt5ct
-  - qt6ct       
-  - qt5-qtgraphicaleffects # SDDM
-  - qt5-qtquickcontrols2 # SDDM  
+  - qt6ct
+  - qt6-qt5compat        
   - kvantum
   - gtk-murrine-engine
   - fontawesome-fonts-all
