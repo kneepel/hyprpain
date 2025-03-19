@@ -11,7 +11,7 @@ install:
   - hyprlock
   - hypridle
   - wlogout
-  - keepassxc 
+  - keepassxc #dbus service @ ~/.local/share/dbus-1/services
 
 #system utils
   - qt5-qtwayland

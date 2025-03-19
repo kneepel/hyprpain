@@ -4,6 +4,4 @@ files:
     destination: /etc
   - source: system/usr
     destination: /usr
-  - source: system/var
-    destination: /var
 
