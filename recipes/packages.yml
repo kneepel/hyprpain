@@ -12,7 +12,7 @@ install:
   - hypridle
   - wlogout
   - gnome-keyring
-  - libsecret
+  - gnome-keyring-pam
   - seahorse
 
 #system utils
@@ -99,7 +99,7 @@ install:
 
 #theming
   - qt6-qtsvg
-  - qt5-qtsvg # SDDM
+  - qt5-qtsvg
   - qt5ct
   - qt6ct
   - qt6-qt5compat    
