@@ -70,6 +70,7 @@ install:
   - NetworkManager-tui
   - bluez-tools
   - blueman
+  - wireguard-tools
 
 #files
   - thunar
