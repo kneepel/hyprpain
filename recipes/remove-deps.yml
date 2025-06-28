@@ -1,5 +1,6 @@
 type: dnf
 remove:
+  auto-remove: false
   packages:
     - firefox
     - firefox-langpacks
