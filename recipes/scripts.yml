@@ -1,4 +1,0 @@
-type: script
-scripts:
-  - rocmfix.sh
-  - rpmfusion.sh

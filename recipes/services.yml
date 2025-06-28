@@ -6,7 +6,6 @@ system:
     - libvirt-workaround.service
     - swtpm-workaround.service
     - sddm.service
-    - lactd.service
     - libvirtd.service
  
 

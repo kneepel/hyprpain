@@ -10,9 +10,7 @@ modules:
   - from-file: packages.yml
   - from-file: fonts.yml
   - from-file: files.yml
-  - from-file: remove-packages.yml
   - from-file: services.yml
-  - from-file: dotfiles.yml
   - type: signing  
 
 

@@ -1,0 +1,121 @@
+type: dnf
+repos:
+  nonfree: rpmfusion
+  copr: 
+    - solopasha/hyprland
+    # - erikreider/SwayNotificationCenter
+install:
+  packages:
+    #login/locking
+    - sddm
+    - sddm-themes
+    - hyprlock
+    - hypridle
+    - wlogout
+    - gnome-keyring
+    - gnome-keyring-pam
+    - seahorse
+  #system utils
+    - qt5-qtwayland
+    - qt6-qtwayland
+    - hyprpolkitagent
+    - tuned
+    - just
+    - xdg-user-dirs
+    - ddcutil
+    - wl-clipboard
+    - cliphist
+    - kitty
+    - micro
+    - slurp
+    - grim
+    - satty
+    - ImageMagick
+    - eog
+    - yad
+    - inxi
+    - nvtop
+    - cava
+    - fastfetch
+    - btop
+    - mousepad
+    - cmake
+    - uwsm
+  #sound
+    - pamixer
+    - alsa-utils
+    - pavucontrol
+    - playerctl
+    - easyeffects
+  #networking
+    - network-manager-applet
+    - NetworkManager-tui
+    - bluez-tools
+    - blueman
+    - wireguard-tools
+  #files
+    - thunar
+    - thunar-archive-plugin
+    - thunar-volman
+    - p7zip
+    - ffmpegthumbnailer
+    - tumbler
+    - xarchiver
+    - gnome-disk-utility
+    - udiskie
+    - unrar
+    - gvfs
+    - gvfs-mtp
+    - gvfs-gphoto2
+    - gvfs-smb
+    - gvfs-nfs
+    - gvfs-fuse
+    - gvfs-archive
+  #display
+    - wlr-randr
+    - wlsunset
+    - brightnessctl
+    - swww
+    - waypaper
+  #theming
+    - qt6-qtsvg
+    - qt5-qtsvg
+    - qt5ct
+    - qt6ct
+    - qt6-qt5compat    
+    - qt6-qtdeclarative 
+    - kvantum
+    - gtk-murrine-engine
+    - fontawesome-fonts-all
+    - gnome-themes-extra
+    - gnome-icon-theme
+    - paper-icon-theme
+    - breeze-icon-theme 
+    - papirus-icon-theme
+    - matugen
+    - nwg-look
+    #desktop
+    - hyprland
+    - hyprcursor
+    - hyprutils
+    - hyprpicker
+    - pyprland
+    - hyprpanel
+    # - SwayNotificationCenter
+    - xdg-desktop-portal-hyprland
+    # - waybar 
+    - rofi-wayland
+    #silverblue replacement packages
+    - distrobox
+    #open tablet driver
+    - https://github.com/OpenTabletDriver/OpenTabletDriver/releases/download/v0.6.5.1/opentabletdriver-0.6.5.1-1.x86_64.rpm
+group-install:
+  with-optional: true
+  packages:
+    - virtualization
+remove:
+  packages:
+    - firefox
+    - firefox-langpacks
+    - toolbox
+    - wofi
