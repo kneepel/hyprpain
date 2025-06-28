@@ -100,10 +100,9 @@ install:
     - hyprutils
     - hyprpicker
     - pyprland
-    - hyprpanel
-    # - SwayNotificationCenter
+    - SwayNotificationCenter
     - xdg-desktop-portal-hyprland
-    # - waybar 
+    - waybar 
     - rofi-wayland
     #silverblue replacement packages
     - distrobox
