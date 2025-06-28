@@ -6,7 +6,6 @@ base-image: quay.io/fedora-ostree-desktops/base-atomic
 image-version: 42
 
 modules:
-  - from-file: scripts.yml
   - from-file: packages.yml
   - from-file: fonts.yml
   - from-file: files.yml
