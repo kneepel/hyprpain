@@ -113,10 +113,4 @@ group-install:
   with-optional: true
   packages:
     - virtualization
-remove:
-  packages:
-    - firefox
-    - firefox-langpacks
-    - toolbox
-    - wofi
-    - SwayNotificationCenter    
+
