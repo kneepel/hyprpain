@@ -102,7 +102,7 @@ install:
     - pyprland
     - SwayNotificationCenter
     - xdg-desktop-portal-hyprland
-    - waybar-git
+    - waybar
     - rofi-wayland
     #silverblue replacement packages
     - distrobox
