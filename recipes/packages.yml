@@ -3,7 +3,7 @@ repos:
   nonfree: rpmfusion
   copr: 
     - solopasha/hyprland
-    # - erikreider/SwayNotificationCenter
+    - errornointernet/walker
 install:
   packages:
     #login/locking
@@ -103,7 +103,8 @@ install:
     - SwayNotificationCenter
     - xdg-desktop-portal-hyprland
     - waybar
-    - rofi-wayland
+    - walker
+    # - rofi-wayland
     #silverblue replacement packages
     - distrobox
     #open tablet driver
