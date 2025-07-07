@@ -4,6 +4,7 @@ repos:
   copr: 
     - solopasha/hyprland
     - errornointernet/walker
+    - ilyaz/LACT
 install:
   packages:
     #login/locking
@@ -41,6 +42,7 @@ install:
     - mousepad
     - cmake
     - uwsm
+    - lact
   #sound
     - pamixer
     - alsa-utils
@@ -75,8 +77,6 @@ install:
     - wlr-randr
     - wlsunset
     - brightnessctl
-    - swww
-    - waypaper
   #theming
     - qt6-qtsvg
     - qt5-qtsvg
@@ -104,6 +104,8 @@ install:
     - xdg-desktop-portal-hyprland
     - waybar
     - walker
+    - swww
+    - waypaper
     # - rofi-wayland
     #silverblue replacement packages
     - distrobox
