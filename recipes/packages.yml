@@ -20,6 +20,7 @@ install:
     - qt5-qtwayland
     - qt6-qtwayland
     - hyprpolkitagent
+    - libatomic
     - tuned
     - just
     - xdg-user-dirs
