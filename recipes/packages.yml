@@ -44,7 +44,7 @@ install:
     - cmake
     - uwsm
     - lact
-    - musl
+    - musl-libc
   #sound
     - pamixer
     - alsa-utils
