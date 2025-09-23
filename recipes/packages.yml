@@ -105,6 +105,7 @@ install:
     - SwayNotificationCenter
     - xdg-desktop-portal-hyprland
     - waybar
+    - elephant
     - walker
     - swww
     - waypaper
