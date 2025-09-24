@@ -3,7 +3,6 @@ repos:
   nonfree: rpmfusion
   copr: 
     - solopasha/hyprland
-    - errornointernet/walker
     - ilyaz/LACT
 install:
   packages:
@@ -45,6 +44,7 @@ install:
     - uwsm
     - lact
     - musl-libc
+    - gtk4-layer-shell 
   #sound
     - pamixer
     - alsa-utils
@@ -105,10 +105,9 @@ install:
     - SwayNotificationCenter
     - xdg-desktop-portal-hyprland
     - waybar
-    - rofi-wayland
     - swww
     - waypaper
-    # - rofi-wayland
+    # - rofi-wayland - disabled but always referenced....
     #silverblue replacement packages
     - distrobox
     #open tablet driver
