@@ -16,7 +16,8 @@ stages:
               git build-essential pkg-config \
               libgtk-4-dev libgtk4-layer-shell-dev \
               libpango1.0-dev libcairo2-dev \
-              libgdk-pixbuf2.0-dev libglib2.0-dev
+              libgdk-pixbuf-2.0-dev libglib2.0-dev \
+              libgraphene-1.0-dev
           # Clone and build Anyrun
           - git clone https://github.com/anyrun-org/anyrun.git
           - cd anyrun
