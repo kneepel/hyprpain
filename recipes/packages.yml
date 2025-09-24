@@ -3,9 +3,13 @@ repos:
   nonfree: rpmfusion
   copr: 
     - solopasha/hyprland
+    - errornointernet/packages 
     - ilyaz/LACT
 install:
   packages:
+    - repo: copr:copr.fedorainfracloud.org:errornointernet:packages
+      packages:
+        - gtk4-layer-shell # updated version
     #login/locking
     - sddm
     - sddm-themes
@@ -44,7 +48,6 @@ install:
     - uwsm
     - lact
     - musl-libc
-    - gtk4-layer-shell 
   #sound
     - pamixer
     - alsa-utils
@@ -113,7 +116,7 @@ install:
     #open tablet driver
     - https://github.com/OpenTabletDriver/OpenTabletDriver/releases/download/v0.6.5.1/opentabletdriver-0.6.5.1-1.x86_64.rpm
     #anyrun
-    - https://github.com/kneepel/hyprpain/raw/refs/heads/main/files/packages/anyrun-25.9.3-1.fc42.x86_64.rpm 
+    - anyrun-25.9.3-1.fc42.x86_64.rpm
 group-install:
   with-optional: true
   packages:
