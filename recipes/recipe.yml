@@ -7,15 +7,13 @@ image-version: 42
 
 stages:
   - name: anyrun
-    from: docker.io/library/rust:latest
+    from: debian:bookworm
     modules:
       - type: script
         snippets:
           # Install build dependencies
-          - echo "deb http://deb.debian.org/debian bookworm main contrib non-free" > /etc/apt/sources.list
-          - echo "deb http://deb.debian.org/debian bookworm-updates main contrib non-free" >> /etc/apt/sources.list
-          - echo "deb http://security.debian.org/debian-security bookworm-security main contrib non-free" >> /etc/apt/sources.list
           - apt-get update && apt-get install -y \
+             rustc cargo \
              git build-essential pkg-config \
              libgtk-4-dev libgtk4-layer-shell-dev \
              libpango-1.0-dev libcairo2-dev \
