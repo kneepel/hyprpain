@@ -14,10 +14,9 @@ stages:
           # Install build dependencies
           - apt-get update && apt-get install -y \
               git build-essential pkg-config \
-              libgtk-4-dev libgtk4-layer-shell-dev \
+              libgtk-4-1 libgtk4-layer-shell0\
               libpango1.0-dev libcairo2-dev \
               libgdk-pixbuf-2.0-dev libglib2.0-dev \
-              libgraphene-1.0-dev
           # Clone and build Anyrun
           - git clone https://github.com/anyrun-org/anyrun.git
           - cd anyrun
