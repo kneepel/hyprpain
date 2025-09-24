@@ -5,13 +5,50 @@ description: nothing but pain
 base-image: quay.io/fedora-ostree-desktops/base-atomic
 image-version: 42
 
+stages:
+  - name: anyrun
+    from: docker.io/library/rust
+    modules:
+      - type: script
+        snippets:
+          # Install build dependencies
+          - apt-get update && apt-get install -y \
+              git build-essential pkg-config \
+              libgtk-4-dev libgtk4-layer-shell-dev \
+              libpango1.0-dev libcairo2-dev \
+              libgdk-pixbuf2.0-dev libglib2.0-dev
+          # Clone and build Anyrun
+          - git clone https://github.com/anyrun-org/anyrun.git
+          - cd anyrun
+          - cargo build --release
+          - cargo install --path anyrun/
+          # Create output directories and copy artifacts
+          - mkdir -p /out/bin /out/etc/xdg/anyrun/plugins
+          # Copy binary from cargo install location
+          - cp $CARGO_HOME/bin/anyrun /out/bin/
+          # Copy plugins to XDG config plugins directory
+          - cp target/release/*.so /out/etc/xdg/anyrun/plugins/
+          # Copy example config
+          - cp examples/config.ron /out/etc/xdg/anyrun/
 modules:
   - from-file: packages.yml
+  # Copy built anyrun components from the build stage
+  - type: copy
+    from: anyrun
+    src: /out/bin/anyrun
+    dest: /usr/bin/
+  - type: copy
+    from: anyrun
+    src: /out/etc/xdg/anyrun/plugins
+    dest: /etc/xdg/anyrun/
+  - type: copy
+    from: anyrun
+    src: /out/etc/xdg/anyrun/config.ron
+    dest: /etc/xdg/anyrun/
   - from-file: remove-deps.yml
   - from-file: fonts.yml
   - from-file: files.yml
   - from-file: services.yml
-  - type: signing  
-
+  - type: signing
 
 
