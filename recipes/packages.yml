@@ -48,6 +48,7 @@ install:
     - uwsm
     - lact
     - musl-libc
+    - socat
   #sound
     - pamixer
     - alsa-utils
