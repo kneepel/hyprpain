@@ -1,6 +1,10 @@
 type: dnf
 repos:
   nonfree: rpmfusion
+  files:
+    - https://rpm.xpipe.io/xpipe.repo
+  keys:
+    - https://xpipe.io/signatures/crschnick.asc
   copr: 
     - solopasha/hyprland
     - errornointernet/packages 
@@ -10,6 +14,9 @@ install:
     - repo: copr:copr.fedorainfracloud.org:errornointernet:packages
       packages:
         - gtk4-layer-shell # updated version
+    - repo: xpipe
+      packages:
+        - xpipe
     #login/locking
     - sddm
     - sddm-themes
