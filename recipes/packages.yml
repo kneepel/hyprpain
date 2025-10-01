@@ -9,6 +9,8 @@ repos:
     - solopasha/hyprland
     - errornointernet/packages 
     - ilyaz/LACT
+optfix:
+  - xpipe
 install:
   packages:
     - repo: copr:copr.fedorainfracloud.org:errornointernet:packages
