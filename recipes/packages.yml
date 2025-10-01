@@ -14,7 +14,7 @@ install:
     - repo: copr:copr.fedorainfracloud.org:errornointernet:packages
       packages:
         - gtk4-layer-shell # updated version
-    - repo: xpipe
+    - repo: xpipe-repo
       packages:
         - xpipe
     #login/locking
