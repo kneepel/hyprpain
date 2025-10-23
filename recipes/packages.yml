@@ -25,16 +25,13 @@ install:
     - hyprlock
     - hypridle
     - wlogout
-    - gnome-keyring
-    - gnome-keyring-pam
-    - seahorse
+    - keepassxc #d-bus unit on /var/usrlocal/share
   #system utils
     - qt5-qtwayland
     - qt6-qtwayland
     - hyprpolkitagent
     - libatomic
     - tuned
-    - just
     - xdg-user-dirs
     - ddcutil
     - wl-clipboard
@@ -124,7 +121,7 @@ install:
     #silverblue replacement packages
     - distrobox
     #open tablet driver
-    - https://github.com/OpenTabletDriver/OpenTabletDriver/releases/download/v0.6.5.1/opentabletdriver-0.6.5.1-1.x86_64.rpm
+    - https://github.com/OpenTabletDriver/OpenTabletDriver/releases/download/v0.6.6.2/opentabletdriver-0.6.6.2-1.x86_64.rpm
     #anyrun
     - anyrun-25.9.3-1.fc42.x86_64.rpm
 group-install:
