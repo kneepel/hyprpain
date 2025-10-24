@@ -1,8 +1,6 @@
 type: dnf
 remove:
   packages:
-    - firefox
-    - firefox-langpacks
     - toolbox
     - wofi
     - nwg-panel

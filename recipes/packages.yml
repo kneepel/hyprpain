@@ -25,11 +25,10 @@ install:
     - hyprlock
     - hypridle
     - wlogout
-    - keepassxc #d-bus unit on /var/usrlocal/share
+    - keepassxc
   #system utils
     - qt5-qtwayland
     - qt6-qtwayland
-    - flatpak-xdg-utils 
     - hyprpolkitagent
     - libatomic
     - tuned
@@ -54,7 +53,6 @@ install:
     - cmake
     - uwsm
     - lact
-    - musl-libc
     - socat
   #sound
     - pamixer
@@ -126,7 +124,8 @@ install:
     #anyrun
     - anyrun-25.9.3-1.fc42.x86_64.rpm
 group-install:
-  with-optional: true
+  with-optional: false
   packages:
     - virtualization
+    - multimedia
 
