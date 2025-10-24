@@ -29,6 +29,7 @@ install:
   #system utils
     - qt5-qtwayland
     - qt6-qtwayland
+    - flatpak-xdg-utils 
     - hyprpolkitagent
     - libatomic
     - tuned
