@@ -26,11 +26,6 @@ install:
     - cliphist
     - matugen
     - uwsm
-    - dms
-    - quickshell
-    - dgop
-    - danksearch
-    - material-symbols-fonts
   #login/locking
     - sddm
     - sddm-themes
