@@ -17,26 +17,21 @@ install:
     - repo: xpipe-repo
       packages:
         - xpipe
-    - repo: copr:copr.fedorainfracloud.org:solopasha:hyprland
-      packages:
-        - hyprland
-        - hyprcursor
-        - hyprutils
-        - hyprpicker
-        - pyprland
-        - xdg-desktop-portal-hyprland
-        - cliphist
-        - matugen
-        - uwsm
-    - repo: copr:copr.fedorainfracloud.org:avengemedia:dms
-      packages:
-        - dms
-    - repo: copr:copr.fedorainfracloud.org:avengemedia:danklinux
-      packages:
-        - quickshell
-        - dgop
-        - danksearch
-        - material-symbols-fonts
+  #copr - desktop
+    - hyprland
+    - hyprcursor
+    - hyprutils
+    - hyprpicker
+    - pyprland
+    - xdg-desktop-portal-hyprland
+    - cliphist
+    - matugen
+    - uwsm
+    - dms
+    - quickshell
+    - dgop
+    - danksearch
+    - material-symbols-fonts
   #login/locking
     - sddm
     - sddm-themes
