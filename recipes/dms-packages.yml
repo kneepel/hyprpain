@@ -28,15 +28,15 @@ install:
         - cliphist
         - matugen
         - uwsm
-    - repo: copr:copr.fedorainfracloud.org:avengemedia:dms
-      packages:
-        - dms
-    - repo: copr:copr.fedorainfracloud.org:avengemedia:danklinux
-      packages:
-        - quickshell
-        - dgop
-        - danksearch
-        - material-symbols-fonts
+    #- repo: copr:copr.fedorainfracloud.org:avengemedia:dms
+      #packages:
+        #- dms
+    #- repo: copr:copr.fedorainfracloud.org:avengemedia:danklinux
+      #packages:
+        #- quickshell
+        #- dgop
+        #- danksearch
+        #- material-symbols-fonts
   #login/locking
     - sddm
     - sddm-themes
