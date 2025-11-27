@@ -44,7 +44,6 @@ install:
   #libraries/tools
     - accountsservice
     - i2c-tools
-    - tuned
     - libatomic
     - tuned
     - xdg-user-dirs
