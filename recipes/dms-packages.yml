@@ -6,6 +6,9 @@ repos:
   keys:
     - https://xpipe.io/signatures/crschnick.asc
   copr: 
+    - avengemedia/dms
+    - avengemedia/danklinux
+    - solopasha/hyprland
     - ilyaz/LACT
 optfix:
   - xpipe
