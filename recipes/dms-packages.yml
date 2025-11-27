@@ -34,9 +34,6 @@ install:
         - dgop
         - danksearch
         - material-symbols-fonts
-  exclude:
-    - wofi
-    - nwg-panel
   #login/locking
     - sddm
     - sddm-themes
