@@ -3,6 +3,9 @@ repos:
   nonfree: rpmfusion
 install:
   packages:
+  #test 
+    - qt5-qtwayland
+    - qt6-qtdeclarative
   #login/locking
     - sddm
     - sddm-themes
