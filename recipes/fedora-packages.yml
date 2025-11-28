@@ -1,6 +1,11 @@
 type: dnf
 repos:
   nonfree: rpmfusion
+  copr: 
+    - solopasha/hyprland
+    - errornointernet/packages 
+    - ilyaz/LACT
+    # ^copr test
 install:
   packages:
   #test 
