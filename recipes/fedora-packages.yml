@@ -1,7 +1,6 @@
 type: dnf
 repos:
   nonfree: rpmfusion
-  copr: 
 install:
   packages:
   #login/locking
