@@ -1,0 +1,18 @@
+type: dnf
+repos:
+  copr:
+    - solopasha/hyprland
+install:
+  packages:
+    - hyprland
+    - hyprcursor
+    - hyprutils
+    - hyprpicker
+    - pyprland
+    - xdg-desktop-portal-hyprland
+    - cliphist
+    - matugen
+    - uwsm
+  exclude:
+    - wofi
+    - nwg-panel

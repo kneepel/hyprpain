@@ -6,20 +6,9 @@ repos:
   keys:
     - https://xpipe.io/signatures/crschnick.asc
   copr: 
-    - avengemedia/dms
-    - avengemedia/danklinux
-    - solopasha/hyprland
     - ilyaz/LACT
 install:
   packages:
-  #broken deps
-    - tomlplusplus
-    - re2
-    - xcb-util-errors 
-    - python3-aiofiles
-    - ibus-panel
-    - ibus-xinit
-    - jemalloc
   #login/locking
     - sddm
     - sddm-themes
@@ -97,29 +86,6 @@ install:
     - repo: xpipe-repo
       packages:
         - xpipe
-    - repo: copr:copr.fedorainfracloud.org:solopasha:hyprland
-      packages:
-        - hyprland
-        - hyprcursor
-        - hyprutils
-        - hyprpicker
-        - pyprland
-        - xdg-desktop-portal-hyprland
-        - cliphist
-        - matugen
-        - uwsm
-    - repo: copr:copr.fedorainfracloud.org:avengemedia:danklinux
-      packages:
-        - quickshell
-        - dgop
-        - danksearch
-        - material-symbols-fonts
-    - repo: copr:copr.fedorainfracloud.org:avengemedia:dms
-      packages:
-        - dms
-  exclude:
-    - wofi
-    - nwg-panel   
 group-install:
   with-optional: false
   packages:

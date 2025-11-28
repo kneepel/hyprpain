@@ -8,6 +8,8 @@ image-version: 43
 
 modules:
   - from-file: dms-packages.yml
+  - from-file: copr-solopasha.yml
+  - from-file: copr-danklinux.yml
   - from-file: remove-deps.yml
   - from-file: fonts.yml
   - from-file: files.yml

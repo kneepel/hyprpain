@@ -1,0 +1,12 @@
+type: dnf
+repos:
+  copr:
+    - avengemedia/dms
+    - avengemedia/danklinux
+install:
+  packages:
+    - quickshell
+    - dgop
+    - danksearch
+    - material-symbols-fonts
+    - dms
