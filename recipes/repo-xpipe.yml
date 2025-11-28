@@ -1,0 +1,9 @@
+type: dnf
+repos:
+  files:
+    - https://rpm.xpipe.io/xpipe.repo
+  keys:
+    - https://xpipe.io/signatures/crschnick.asc
+install:
+  packages:
+    - xpipe

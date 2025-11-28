@@ -1,12 +1,6 @@
 type: dnf
 repos:
   nonfree: rpmfusion
-  files:
-    - https://rpm.xpipe.io/xpipe.repo
-  keys:
-    - https://xpipe.io/signatures/crschnick.asc
-  copr: 
-    - ilyaz/LACT
 install:
   packages:
   #login/locking
@@ -14,7 +8,6 @@ install:
     - sddm-themes
     - keepassxc
   #libraries/tools
-    - accountsservice
     - i2c-tools
     - libatomic
     - tuned
@@ -36,7 +29,6 @@ install:
     - fastfetch
     - btop
     - mousepad
-    - lact
   #sound
     - pamixer
     - alsa-utils
@@ -83,9 +75,6 @@ install:
     - distrobox
   #open tablet driver
     - https://github.com/OpenTabletDriver/OpenTabletDriver/releases/download/v0.6.6.2/opentabletdriver-0.6.6.2-1.x86_64.rpm
-    - repo: xpipe-repo
-      packages:
-        - xpipe
 group-install:
   with-optional: false
   packages:
