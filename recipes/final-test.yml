@@ -12,14 +12,6 @@ repos:
     - ilyaz/LACT
 install:
   packages:
-  #broken deps
-    - tomlplusplus
-    - re2
-    - xcb-util-errors 
-    - python3-aiofiles
-    - ibus-panel
-    - ibus-xinit
-    - jemalloc
   #login/locking
     - sddm
     - sddm-themes
