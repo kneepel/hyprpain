@@ -1,7 +1,7 @@
 type: dnf
 repos:
   copr:
-    - solopasha/hyprland
+    - ilyaz/LACT
 install:
   packages:
     - lact
