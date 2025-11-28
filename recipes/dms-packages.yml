@@ -17,6 +17,9 @@ install:
     - re2
     - xcb-util-errors 
     - python3-aiofiles
+    - ibus-panel
+    - ibus-xinit
+    - jemalloc
   #login/locking
     - sddm
     - sddm-themes
@@ -105,15 +108,15 @@ install:
         - cliphist
         - matugen
         - uwsm
-    - repo: copr:copr.fedorainfracloud.org:avengemedia:dms
-      packages:
-        - dms
     - repo: copr:copr.fedorainfracloud.org:avengemedia:danklinux
       packages:
         - quickshell
         - dgop
         - danksearch
         - material-symbols-fonts
+    - repo: copr:copr.fedorainfracloud.org:avengemedia:dms
+      packages:
+        - dms
   exclude:
     - wofi
     - nwg-panel   
