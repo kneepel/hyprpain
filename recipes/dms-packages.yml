@@ -12,20 +12,11 @@ repos:
     - ilyaz/LACT
 install:
   packages:
-  #copr - desktop
-    - hyprland
-    - hyprcursor
-    - hyprutils
-    - pyprland
-    - xdg-desktop-portal-hyprland
-    - cliphist
-    - matugen
-    - uwsm
-    - dms
-    - quickshell
-    - dgop
-    - danksearch
-    - material-symbols-fonts
+  #broken deps
+    - tomlplusplus
+    - re2
+    - xcb-util-errors 
+    - python3-aiofiles
   #login/locking
     - sddm
     - sddm-themes
@@ -100,12 +91,29 @@ install:
     - distrobox
   #open tablet driver
     - https://github.com/OpenTabletDriver/OpenTabletDriver/releases/download/v0.6.6.2/opentabletdriver-0.6.6.2-1.x86_64.rpm
-    - repo: copr:copr.fedorainfracloud.org:solopasha:hyprland
-      packages:
-        - hyprpicker
     - repo: xpipe-repo
       packages:
         - xpipe
+    - repo: copr:copr.fedorainfracloud.org:solopasha:hyprland
+      packages:
+        - hyprland
+        - hyprcursor
+        - hyprutils
+        - hyprpicker
+        - pyprland
+        - xdg-desktop-portal-hyprland
+        - cliphist
+        - matugen
+        - uwsm
+    - repo: copr:copr.fedorainfracloud.org:avengemedia:dms
+      packages:
+        - dms
+    - repo: copr:copr.fedorainfracloud.org:avengemedia:danklinux
+      packages:
+        - quickshell
+        - dgop
+        - danksearch
+        - material-symbols-fonts
   exclude:
     - wofi
     - nwg-panel   
