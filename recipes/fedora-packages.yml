@@ -29,7 +29,6 @@ install:
     - fastfetch
     - btop
     - mousepad
-    - satty
   #sound
     - pamixer
     - alsa-utils

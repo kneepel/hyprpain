@@ -13,6 +13,7 @@ install:
     - cliphist
     - matugen
     - uwsm
+    - satty
   exclude:
     - wofi
     - nwg-panel
