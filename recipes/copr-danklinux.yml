@@ -5,7 +5,7 @@ repos:
     - avengemedia/danklinux
 install:
   packages:
-    - quickshell
+    - quickshell-git
     - dgop
     - danksearch
     - material-symbols-fonts
