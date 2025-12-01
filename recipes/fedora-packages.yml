@@ -29,6 +29,7 @@ install:
     - fastfetch
     - btop
     - mousepad
+    - pavucontrol
   #sound
     - pamixer
     - alsa-utils
