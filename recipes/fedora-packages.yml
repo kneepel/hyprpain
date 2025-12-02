@@ -7,7 +7,7 @@ install:
     - sddm
     - sddm-themes
     - keepassxc
-    - polkit-gnome
+    - polkit-kde
   #libraries/tools
     - i2c-tools
     - libatomic
