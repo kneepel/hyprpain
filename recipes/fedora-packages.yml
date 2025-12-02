@@ -7,6 +7,7 @@ install:
     - sddm
     - sddm-themes
     - keepassxc
+    - polkit-gnome
   #libraries/tools
     - i2c-tools
     - libatomic
@@ -16,6 +17,7 @@ install:
     - cmake
     - socat
     - micro
+    - evolution-data-server #noctalia-shell OSD dep
   #desktop utils
     - wl-clipboard
     - kitty
@@ -30,6 +32,7 @@ install:
     - btop
     - mousepad
     - pavucontrol
+    - wlsunset
   #sound
     - pamixer
     - alsa-utils
@@ -63,7 +66,6 @@ install:
     - qt6-qtwayland
     - qt6-qtmultimedia
     - qt6-qtsvg
-    - qt6-qttools
     - qt5-qtsvg
     - qt5ct
     - qt6ct

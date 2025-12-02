@@ -1,0 +1,9 @@
+type: dnf
+repos:
+  copr:
+    - zhangyi6324/noctalia-shell
+install:
+  packages:
+    - noctalia-shell
+    - gpu-screen-recorder
+    
