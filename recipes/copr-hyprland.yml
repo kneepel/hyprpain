@@ -8,6 +8,7 @@ install:
     - hyprcursor
     - hyprutils
     - hyprpicker
+    - hyprland-qtutils
     - pyprland
     - xdg-desktop-portal-hyprland
     - cliphist
