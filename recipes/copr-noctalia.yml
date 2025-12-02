@@ -4,6 +4,8 @@ repos:
     - zhangyi6324/noctalia-shell
 install:
   packages:
+    - quickshell
     - noctalia-shell
     - gpu-screen-recorder
+  
     
