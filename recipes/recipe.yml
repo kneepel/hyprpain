@@ -9,7 +9,8 @@ image-version: 43
 modules:
   - from-file: fedora-packages.yml
   - from-file: copr-hyprland.yml
-  - from-file: copr-danklinux.yml
+  - from-file: copr-quickshell.yml
+  - from-file: copr-noctalia.yml
   - from-file: copr-lact.yml
   - from-file: repo-xpipe.yml
   - from-file: remove-deps.yml
