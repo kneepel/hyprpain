@@ -19,8 +19,7 @@ install:
   #desktop utils
     - wl-clipboard
     - kitty
-    - slurp
-    - grim
+    - flameshot
     - ImageMagick
     - eog
     - inxi

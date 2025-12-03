@@ -1,20 +1,18 @@
 type: dnf
 repos:
   copr:
-    - solopasha/hyprland
+    - lionheartp/Hyprland
 install:
   packages:
     - hyprland
     - hyprcursor
     - hyprutils
     - hyprpicker
-  #  - hyprland-qtutils
-    - pyprland
+    - hyprland-guiutils
     - xdg-desktop-portal-hyprland
     - cliphist
     - matugen
     - uwsm
-    - satty
   exclude:
     - wofi
     - nwg-panel
