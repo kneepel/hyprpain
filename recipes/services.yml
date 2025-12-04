@@ -1,7 +1,6 @@
 type: systemd
 system:
   enabled:
-    - sddm-user.service
     - hyprpain-setup.service
     - libvirtd.service
  
