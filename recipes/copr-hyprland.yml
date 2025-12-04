@@ -7,7 +7,6 @@ install:
     - hyprland
     - hyprcursor
     - hyprutils
-    - hyprpicker
     - hyprland-guiutils
     - xdg-desktop-portal-hyprland
     - cliphist

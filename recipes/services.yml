@@ -3,9 +3,6 @@ system:
   enabled:
     - sddm-user.service
     - hyprpain-setup.service
-    - libvirt-workaround.service
-    - swtpm-workaround.service
-    -  greetd-workaround.service
     - libvirtd.service
  
 
