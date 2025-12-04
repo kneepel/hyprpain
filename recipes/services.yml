@@ -5,7 +5,7 @@ system:
     - hyprpain-setup.service
     - libvirt-workaround.service
     - swtpm-workaround.service
-    - sddm.service
+    -  greetd-workaround.service
     - libvirtd.service
  
 

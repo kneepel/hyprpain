@@ -4,8 +4,7 @@ repos:
 install:
   packages:
   #login/locking
-    - sddm
-    - sddm-themes
+    - greetd
     - keepassxc
   #libraries/tools
     - i2c-tools
