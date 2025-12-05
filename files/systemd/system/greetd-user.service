@@ -1,0 +1,13 @@
+[Unit]
+Description=Create greeter user if it doesn't exist
+DefaultDependencies=no
+Before=systemd-user-sessions.service
+After=local-fs.target
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash -c 'id -u greeter &>/dev/null || useradd -r -m -d /var/lib/greeter -s /sbin/nologin -c "Greeter Service User" greeter'
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

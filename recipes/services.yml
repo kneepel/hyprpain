@@ -3,6 +3,8 @@ system:
   enabled:
     - hyprpain-setup.service
     - libvirtd.service
+    - greetd-user.service
+    - greetd.service
  
 
 

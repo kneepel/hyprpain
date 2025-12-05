@@ -15,6 +15,7 @@ install:
     - cmake
     - socat
     - micro
+    - steam-devices
   #desktop utils
     - wl-clipboard
     - kitty
