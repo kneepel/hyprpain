@@ -1,14 +1,14 @@
 type: dnf
 repos:
   copr:
-    - avengemedia/dms
+    - avengemedia/dms-git
     - avengemedia/danklinux
 install:
   packages:
     - quickshell-git
+    - material-symbols-fonts
     - dgop
     - danksearch
-    - material-symbols-fonts
     - dms
     - dms-greeter
     
