@@ -11,4 +11,6 @@ install:
     - danksearch
     - dms
     - dms-greeter
+  exclude:
+    - hyprpicker #use dms color picker
     
