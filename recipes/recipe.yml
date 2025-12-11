@@ -11,6 +11,7 @@ modules:
   - from-file: copr-danklinux.yml
   - from-file: copr-lact.yml
   - from-file: repo-xpipe.yml
+  - from-file: obs-syncthing.yml
   - from-file: remove-deps.yml
   - from-file: fonts.yml
   - from-file: files.yml
