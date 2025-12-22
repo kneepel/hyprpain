@@ -18,7 +18,6 @@ install:
   #desktop utils
     - wl-clipboard
     - kitty
-    - satty
     - ImageMagick
     - eog
     - inxi
