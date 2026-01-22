@@ -8,7 +8,7 @@ NEEDED_KARGS=()
 echo "Current kargs: $KARGS"
 
 if [[ ! $KARGS =~ "ppfeaturemask" ]]; then
-    NEEDED_KARGS+=("--append-if-missing="$(printf 'amdgpu.ppfeaturemask=0x%x\n' "$(($(cat /sys/module/amdgpu/parameters/ppfeaturemask) | 0x4000))"))
+    NEEDED_KARGS+=("--append-if-missing=amdgpu.ppfeaturemask=0xffffffff")
   fi
 
 if [[ ! $KARGS =~ "intel_iommu" ]]; then
