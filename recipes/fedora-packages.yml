@@ -16,7 +16,6 @@ install:
     - micro
     - steam-devices
   #desktop utils
-    - wl-clipboard
     - kitty
     - ImageMagick
     - eog
