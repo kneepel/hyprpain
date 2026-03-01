@@ -9,9 +9,8 @@ install:
     - hyprutils
     - hyprland-guiutils
     - xdg-desktop-portal-hyprland
-    - cliphist
-    - matugen
     - uwsm
   exclude:
     - wofi
     - nwg-panel
+    - noctalia-qs
