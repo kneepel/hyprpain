@@ -67,6 +67,8 @@ install:
     - breeze-icon-theme 
     - papirus-icon-theme
     - adwaita-icon-theme
+  #codecs
+    - mesa-va-drivers-freeworld
   #silverblue replacement packages
     - distrobox
   #open tablet driver
