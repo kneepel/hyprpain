@@ -1,7 +1,0 @@
-type: dnf
-repos:
-  files:
-    - https://download.opensuse.org/repositories/home:mkittler/Fedora_43/home:mkittler.repo
-install:
-  packages:
-    - syncthingtray
