@@ -6,6 +6,8 @@ install:
   #login/locking
     - greetd
     - keepassxc
+    - gnome-keyring
+    - seahorse
   #libraries/tools
     - i2c-tools
     - libatomic
