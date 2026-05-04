@@ -68,7 +68,6 @@ install:
     - qt6-qtmultimedia
     - qt6-qtbase
     - qt6-qtsvg
-    - qt6ct
     - qt6-qt5compat    
     - adw-gtk3-theme
     - breeze-icon-theme 
