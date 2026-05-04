@@ -63,6 +63,7 @@ install:
   #display
     - wlr-randr
   #theming
+    - qt5-qtbase
     - qt6-qtwayland
     - qt6-qtmultimedia
     - qt6-qtbase
