@@ -1,6 +1,10 @@
 type: dnf
 repos:
   nonfree: rpmfusion
+  files:
+    remove:
+      - rpmfusion-free-rawhide
+      - rpmfusion-nonfree-rawhide
 install:
   packages:
   #login/locking
