@@ -71,7 +71,6 @@ install:
     - qt6ct
     - qt6-qt5compat    
     - adw-gtk3-theme
-    - gnome-themes-extra
     - breeze-icon-theme 
     - papirus-icon-theme
     - adwaita-icon-theme
