@@ -1,0 +1,12 @@
+type: dnf
+repos:
+  copr:
+    - yalter/niri
+    - lionheartp/Hyprland
+install:
+  packages:
+    - niri
+    - uwsm
+    - xdg-desktop-portal-gnome
+    - xwayland-satellite 
+  exclude:

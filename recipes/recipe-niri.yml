@@ -1,0 +1,20 @@
+name: scrollinghell
+
+description: nothing but pain
+
+base-image: quay.io/fedora-ostree-desktops/base-atomic
+image-version: 44
+
+modules:
+  - from-file: fedora-packages.yml
+  - from-file: copr-niri.yml
+  - from-file: copr-danklinux.yml
+  - from-file: copr-lact.yml
+  - from-file: repo-xpipe.yml
+  - from-file: remove-deps.yml
+  - from-file: fonts.yml
+  - from-file: files.yml
+  - from-file: services.yml
+  - type: signing
+
+
