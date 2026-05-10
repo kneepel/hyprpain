@@ -4,6 +4,7 @@ repos:
     - yalter/niri
     - lionheartp/Hyprland
 install:
+  install-weak-deps: false
   packages:
     - niri
     - uwsm
