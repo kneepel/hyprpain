@@ -8,5 +8,5 @@ install:
     - niri
     - uwsm
     - xdg-desktop-portal-gnome
-    - xwayland-satellite 
+    - xwayland-satellite
   exclude:
