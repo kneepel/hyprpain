@@ -34,7 +34,6 @@ install:
     - btop
     - mousepad
     - pavucontrol
-    - kde-connect 
   #sound
     - pamixer
     - alsa-utils
