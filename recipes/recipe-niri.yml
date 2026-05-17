@@ -13,6 +13,7 @@ modules:
   - from-file: remove-deps.yml
   - from-file: fonts.yml
   - from-file: files.yml
+  - from-file: permissions.yml
   - from-file: services.yml
   - type: signing
 

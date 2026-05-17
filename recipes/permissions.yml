@@ -1,0 +1,5 @@
+type: script
+snippets:
+  - "chmod 755 /usr/bin/sshm /usr/bin/starship"
+
+  

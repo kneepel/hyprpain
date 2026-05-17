@@ -12,7 +12,3 @@ files:
 
     # Starship (1.25.1)
     # SSHM (1.11.0)
-  
-type: script
-snippets:
-  - "chmod 755 /usr/bin/sshm /usr/bin/starship"
