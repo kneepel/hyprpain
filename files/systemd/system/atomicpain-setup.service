@@ -6,7 +6,7 @@ Before=systemd-user-sessions.service
 [Service]
 Type=oneshot
 RemainAfterExit=no
-ExecStart=/bin/bash /usr/libexec/hyprpain-setup
+ExecStart=/bin/bash /usr/libexec/atomicpain-setup
 
 [Install]
 WantedBy=multi-user.target

@@ -31,8 +31,8 @@ else
   echo "No karg changes needed"
 fi
 
-if [ "$(hostname)" != "hyprpain" ]; then
-  hostnamectl set-hostname hyprpain
+if [ "$(hostname)" != "atomicpain" ]; then
+  hostnamectl set-hostname atomicpain
 else
   echo "Hostname has not changed"
 fi

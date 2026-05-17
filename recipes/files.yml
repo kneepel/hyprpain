@@ -1,7 +1,15 @@
 type: files
 files:
-  - source: system/etc
+  - source: system/etc #install config
     destination: /etc
-  - source: system/usr
-    destination: /usr
+  - source: system/usr/libexec # hyprpain setup
+    destination: /usr/libexec
+  - source: system/usr/bin
+    destionation: /usr/bin
+  - source: system/usr/share/licenses
+    destination: /usr/share/licenses
+
+
+    # Starship (1.25.1)
+    # SSHM (1.11.0)
 

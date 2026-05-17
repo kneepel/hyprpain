@@ -1,7 +1,7 @@
 type: systemd
 system:
   enabled:
-    - hyprpain-setup.service
+    - atomicpain-setup.service
     - libvirtd.service
     - greetd-user.service
     - greetd.service
