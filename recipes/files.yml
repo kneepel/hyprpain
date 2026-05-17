@@ -5,7 +5,7 @@ files:
   - source: system/usr/libexec # hyprpain setup
     destination: /usr/libexec
   - source: system/usr/bin
-    destionation: /usr/bin
+    destination: /usr/bin
   - source: system/usr/share/licenses
     destination: /usr/share/licenses
 
