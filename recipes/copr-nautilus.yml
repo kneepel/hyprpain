@@ -1,0 +1,9 @@
+type: dnf
+repos:
+  copr:
+    - monkeygold/nautilus-open-any-terminal
+install:
+  packages:
+    - nautilus-open-any-terminal
+
+#why is this needed...

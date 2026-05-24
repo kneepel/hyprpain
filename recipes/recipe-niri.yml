@@ -7,6 +7,7 @@ image-version: 44
 
 modules:
   - from-file: fedora-packages.yml
+  - from-file: copr-nautilus.yml
   - from-file: copr-niri.yml
   - from-file: copr-danklinux.yml
   - from-file: copr-lact.yml
