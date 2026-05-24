@@ -45,13 +45,16 @@ install:
     - bluez-tools
     - wireguard-tools
   #files
-    - thunar
-    - thunar-archive-plugin
-    - thunar-volman
+    ## thunar packages below, archived if I ever wanna move back
+    #- thunar
+    #- thunar-archive-plugin
+    #- thunar-volman
+    #- tumbler
+    #- xarchiver
+    - nautilus
+    - file-roller
     - p7zip
     - ffmpegthumbnailer
-    - tumbler
-    - xarchiver
     - gnome-disk-utility
     - udiskie
     - unrar
