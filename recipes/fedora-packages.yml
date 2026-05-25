@@ -12,6 +12,7 @@ install:
     - gnome-keyring
     - gnome-keyring-pam
     - seahorse
+    - pam-u2f
   #bitwarden 
     - https://bitwarden.com/download/?app=desktop&platform=linux&variant=rpm 
   #libraries/tools
